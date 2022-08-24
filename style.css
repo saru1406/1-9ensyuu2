@@ -20,14 +20,14 @@ main {
   
 }
 
-.image1-box {
+.image-box {
   width: 300px;
   background-color: #EEEEEE;
   margin-right: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-}
+  padding:10px;
+  position: relative;
+  }
+
 
 
 
@@ -54,6 +54,14 @@ main {
   margin-right: 30px;
 }
 
+.image1-box {
+  width: 300px;
+  background-color: #EEEEEE;
+  padding: 10px;
+  position: relative;
+}
+
+
 .image3 {
   width: 280px;
   height: 150px;
@@ -62,7 +70,13 @@ main {
   background-position: bottom;
 }
 
-
+.category {
+position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
 
 
 
